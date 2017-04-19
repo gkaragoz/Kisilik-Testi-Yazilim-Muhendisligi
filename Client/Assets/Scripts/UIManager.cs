@@ -8,10 +8,9 @@ public class UIManager : MonoBehaviour {
     private List<GameObject> Panels = new List<GameObject>();
 
     #region PANELS
-        public GameObject PNL_WELCOME;
-        public GameObject PNL_GUIDE;
-        public GameObject PNL_QUESTIONS;
-    #endregion
+    public GameObject PNL_WELCOME;
+    public GameObject PNL_GUIDE;
+    public GameObject PNL_QUESTIONS;
 
     void FindPanelsGameObjects()
     {
@@ -34,13 +33,31 @@ public class UIManager : MonoBehaviour {
                 item.SetActive(false);
         }
     }
+    #endregion
 
-	void Start () {
+    #region BUTTONS
+    private Button btnStart;
+    private Button btnIUnderstand;
+
+    void FindButtonsGameObjects()
+    {
+        btnStart        = PNL_WELCOME.transform.FindChild("btnStart").GetComponent<Button>();
+        btnIUnderstand  = PNL_GUIDE.transform.FindChild("btnIUnderstand").GetComponent<Button>();
+
+        GiveButtonsTasks();
+    }
+
+    void GiveButtonsTasks ()
+    {
+        btnStart.onClick.AddListener(delegate { Debug.Log("Clicked"); });
+        btnIUnderstand.onClick.AddListener(delegate { Debug.Log("Clicked"); });
+    }
+    #endregion
+
+    void Start () {
         FindPanelsGameObjects(); //Initialize all panel objects references.
-        OpenScreen(PNL_WELCOME);
-	}
-	
-	void Update () {
-		
+        FindButtonsGameObjects();//Initialize all button objects references.
+
+        OpenScreen(PNL_WELCOME); //Start the application with Welcome Screen.
 	}
 }
