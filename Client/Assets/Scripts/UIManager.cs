@@ -49,8 +49,8 @@ public class UIManager : MonoBehaviour {
 
     void GiveButtonsTasks ()
     {
-        btnStart.onClick.AddListener(delegate { Debug.Log("Clicked"); });
-        btnIUnderstand.onClick.AddListener(delegate { Debug.Log("Clicked"); });
+        btnStart.onClick.AddListener(delegate { OpenScreen(PNL_GUIDE); });
+        btnIUnderstand.onClick.AddListener(delegate { OpenScreen(PNL_QUESTIONS); });
     }
     #endregion
 
