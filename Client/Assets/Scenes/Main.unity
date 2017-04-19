@@ -436,6 +436,7 @@ GameObject:
   - component: {fileID: 237017373}
   - component: {fileID: 237017372}
   - component: {fileID: 237017376}
+  - component: {fileID: 237017377}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -535,6 +536,17 @@ MonoBehaviour:
   PNL_WELCOME: {fileID: 0}
   PNL_GUIDE: {fileID: 0}
   PNL_QUESTIONS: {fileID: 0}
+--- !u!114 &237017377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 237017371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27a53c074b1d74a4eacdfea497fee7c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &275647233
 GameObject:
   m_ObjectHideFlags: 0

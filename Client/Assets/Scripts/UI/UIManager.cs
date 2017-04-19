@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour {
 
+    private Animations animations;
     private List<GameObject> Panels = new List<GameObject>();
 
     #region PANELS
@@ -58,6 +59,9 @@ public class UIManager : MonoBehaviour {
         FindPanelsGameObjects(); //Initialize all panel objects references.
         FindButtonsGameObjects();//Initialize all button objects references.
 
+        animations = transform.GetComponent<Animations>();
+        animations.PingPongScale(btnStart.gameObject);
+        animations.PingPongScale(btnIUnderstand.gameObject);
         OpenScreen(PNL_WELCOME); //Start the application with Welcome Screen.
 	}
 }
