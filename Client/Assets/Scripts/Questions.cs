@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class Questions : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    private JSONObject data;
+
+    void Start()
+    {
+        string dataPath = (Resources.Load<TextAsset>("Data") as TextAsset).text;
+
+        data = new JSONObject(dataPath);
+        Debug.Log(data);
+    }
 }
