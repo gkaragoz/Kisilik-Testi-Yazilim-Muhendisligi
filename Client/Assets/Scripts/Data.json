@@ -1,0 +1,234 @@
+{
+	"Questions" : {
+		"Q1": {
+		"Question": "Aþaðýdaki beyitlerden hangisi sizi daha iyi anlatýr?",
+		"Answers": {
+			"A": "Güçlü, kararlý, giriþken ve doðuþtan liderim. Düþer kalkar yoluma devam ederim.",
+			"B": "Hayata anlamlý renkler katar eðlenceyi severim. Ömür boyu herkesin mutlu ve neþeli olmasýný dilerim.",
+			"C": "Her anýmý huzurlu ve sakin geçirmek isterim. Kavga gürültü sevmem, iþlerimde en kolay yolu seçerim.",
+			"D": "Her þeyin mükemmel, düzgün, kusursuz olmasýný isterim. Ýliþkilerimde saygýlý ve mesafeli olmayý severim."
+			}
+		},
+		"Q2": {
+			"Question": "Genellikle hangi tempoda ve nasýl konuþursunuz?",
+			"Answers": {
+				"A": "Hýzlý ve sonuca yönelik.",
+				"B": "Çok hýzlý, heyecanlý ve eðlenceli.",
+				"C": "Daha yavaþ ve sakin.",
+				"D": "Normal ve söyleyeceklerimi aklýmda tartarak."
+			}
+		},
+		"Q3": {
+			"Question": "Bir iþe motive olmanýzý saðlayan en önemli unsur hangisidir?",
+			"Answers": {
+				"A": "Sonuçlarý düþünmek.",
+				"B": "Onaylanmak, takdir edilmek.",
+				"C": "Gruptaki arkadaþlarýmýn desteði.",
+				"D": "Etkinlik, düzen ve disiplin."
+			}
+		},
+		"Q4": {
+			"Question": "Çalýþma tarzýnýz hangisine uygundur?",
+			"Answers": {
+				"A": "Yoðun ve hýzlýyýmdýr. Ayný anda birkaç iþ bir arada yapabilirim.",
+				"B": "Özgür bir ortamda çalýþýrým. Ýnsan iliþkileri odaklýyýmdýr.",
+				"C": "Ön planda olmayan; ama gruba her türlü desteði veren bir yapým vardýr.",
+				"D": "Ayrýntýlarý önemserim ve tek bir konuya odaklanarak çalýþýrým."
+			}
+		},
+		"Q5": {
+			"Question": "Çalýþma temponuzu nasýl deðerlendiriyorsunuz?",
+			"Answers": {
+				"A": "Hýzlý bir tempoda çalýþýr, çabuk karar almayý severim.",
+				"B": "Ýþlerin, rutin ve sýkýcý olmadýðý ortamlarda yüksek motivasyonla çalýþýrým.",
+				"C": "Nadiren aceleciyimdir. Geçde olsa üstlendiðim iþi bitiririm.",
+				"D": "Ayrýntýlý düþünerek karar veririm. Ýþ bitirici bir tempoyla çalýþýrým."
+			}
+		},
+		"Q6": {
+			"Question": "Hangisi sizi daha çok rahatsýz eder?",
+			"Answers": {
+				"A": "Zaman israfý ve iþlerin gecikmesi.",
+				"B": "Tekrar gerektiren iþler ve monotonluk.",
+				"C": "Çatýþma ortamý ve anlaþmazlýklar.",
+				"D": "Yanýlmak ve yapýlan hatanýn tekrarlanmasý."
+			}
+		},
+		"Q7": {
+			"Question": "Bulunduðunuz gruplarda hangi konumda daha baþarýlý olursunuz?",
+			"Answers": {
+				"A": "Olaylara yön veren ve otoriteyi kullanan.",
+				"B": "Ýnsanlarý motive eden ve neþelendiren.",
+				"C": "Uzlaþtýrýcý ve grup içindeki uyumu saðlayan.",
+				"D": "Bilgi saðlayýcý, araþtýrýcý ve olaylarý takip eden."
+			}
+		},
+		"Q8": {
+			"Question": "Hangisi sizi daha çok strese sokar?",
+			"Answers": {
+				"A": "Olaylar üzerindeki güç ve kontrolümün azaldýðýný hissetmek.",
+				"B": "Sýkýcý, rutin iþler yapýlan bir ortamda bulunmak.",
+				"C": "Beni aþacaðýný düþündüðüm sorumluluklar üstlenmek.",
+				"D": "Düzensiz ortamlar ve eksik yapýlan iþler."
+			}
+		},
+		"Q9": {
+			"Question": "Bir öðrenci olsanýz ve öðretmeniniz sýnav kaðýdýnýzý ikinci defa incelediðinde puanýnýzý arttýrdýðýný söylese, nasýl bir tepki verirsiniz?",
+			"Answers": {
+				"A": "Bunu zaten hak ettiðimi düþünürüm.",
+				"B": "Çok sevinirim ve sevincimi belli ederim.",
+				"C": "Hocama teþekkür eder ve saygý duyarým.",
+				"D": "Hocamýn nerede hata yaptýðýný merak eder, kaðýdýmý görmek isterim."
+			}
+		},
+		"Q10": {
+			"Question": "Saatler sürecek bir iþ toplantýsýna katýlmanýz gerektiðinde aþaðýdakilerden hangisini benimsersiniz?",
+			"Answers": {
+				"A": "Konunun ana hatlarýnýn konuþulmasý için, sonucun belli olmasýndan hemen sonra çýkmayý tercih ederim.",
+				"B": "Toplantý eðlenceli bir þekilde devam ettiðinde sonuna kadar kalmayý, sýkýcý olmaya baþladýýnda erken çýkmayý tercih ederim.",
+				"C": "Toplantýnýn huzur içinde geçmesi ve güzel kararlar çýkmasý için üstüme düþeni yaparým.",
+				"D": "Toplantýya vaktinden önce gelir, tüm detaylarý not eder ve bir deðerlendirme yapmak için geç çýkarým."
+			}
+		},
+		"Q11": {
+			"Question": "Kendinizde gördüðünüz en zayýf yönünüz hangisidir?",
+			"Answers": {
+				"A": "Ýnsanlar iþleri istediðim gibi yapmadýðýnda ve seri olmadýklarýnda sinirlenmek.",
+				"B": "Düzensiz, daðýnýk ve programsýz olmak.",
+				"C": "Kimseye hayýr diyememek ve baþkalarýnýn iþine koþarken kendi iþimi aksatmak.",
+				"D": "Her þeyin kusursuz ve mükemmel olmasýný istemek. Ýnsanlar buna uymadýðýnda sinirlenmek."
+			}
+		},
+		"Q12": {
+			"Question": "Kendinizde gördüðünüz en güçlü yönünüz hangisidir?",
+			"Answers": {
+				"A": "Kýsa sürede karar alan ve harekete geçen yapým.",
+				"B": "Girdiðim ortamlara neþe ve heyecan katan tarafým.",
+				"C": "Her türlü ortama uyum saðlama ve çatýþmalarý önleme gayretim.",
+				"D": "Her þeyi planlý, programlý ve düzenli yapma huyum."
+			}
+		},
+		"Q13": {
+			"Question": "Aþaðýdaki ifadelerden hangisi sizi daha iyi tanýmlar?",
+			"Answers": {
+				"A": "Güçlü, kararlý, otoriter ve yönlendirici.",
+				"B": "Popüler, neþeli, sevimli ve muzip.",
+				"C": "Barýþçýl, sevecen, uyumlu ve sakin.",
+				"D": "Tertipli, düzenli, disiplinli ve planlý."
+			}
+		},
+		"Q14": {
+			"Question": "Çalýþma masanýzda nelere dikkat edersiniz?",
+			"Answers": {
+				"A": "Öncelik verdiðim þeyleri yapacak þekilde düzenlenmiþ sade bir masayý tercih ederim.",
+				"B": "Ýnsanlara karma karýþýk gelen; ama benim aradýðým her þeyi bulduðum bir masada çalýþýrým.",
+				"C": "Önce masamýn üzerine gerekli olan her türlü araç gereci koyarým. Sýk sýk kalkarak enerjimi harcamak istemem.",
+				"D": "Ýyi bir iþ çýkarmam için masam son derece derli-toplu ve düzenli olmalýdýr."
+			}
+		},
+		"Q15": {
+			"Question": "Ertesi gün çözülmesi gereken bir problem varsa o akþamki ruh haliniz nasýl olur?",
+			"Answers": {
+				"A": "Çok büyük tedirginlik duymam; çünkü ertesi gün o iþi olmasý gerektiði gibi yapacaðýmdan eminimdir.",
+				"B": "Çok tedirginlik duymam; çünlü nasýl olsa iþler bir þekilde hallolacaktýr.",
+				"C": "Sorumluluðun üstümde olmasýndan dolayý tedirginlik duyarým.",
+				"D": "Tedirginlik duyarým ve gecenin büyük bölümünde problemin nasýl çözüleceðiyle ilgili planlar yaparým."
+			}
+		}
+	},
+	"Informations" : {
+		"Yellow": [ "Sarý karakterli kiþiler, bu 4 ana kategori içinde en hareketli karakterdir.",
+					"Ýlgi çekici ve karizatik yapýlýdýrlar.",
+					"Dýþarýdan bakýlýnca sevimli, kýpýr kýpýr, hikayeler anlatýp güldüren ve gülen birini görüyorsanýz onlarý hemen tanýrsýnýz.",
+					"Birebir iliþkilerde çok aktiftirler.",
+					"Yabancýlarla kolaylýkla ve özel bir çaba göstermeksizin iliþki kurarlar.",
+					"Geniþ bir tanýdýk çevreleri vardýr.",
+					"Hayaller kurmaya yatkýndýrlar.",
+					"Vizyonlarý çok geniþtir.",
+					"Bir organizasyon içerisinde büyük projeler hayal edebilen, çok daha büyük ve parlak bir geleceði düþünebilen kiþilerdir. Ancak bunlarý hayata geçirme konusunda büyük sýkýntýlar yaþayabilirler.",
+					"Bu karakter grubunun genel özellikleri; giriþkendirler, ayrýntýlar üzerinde düþünmezler, çalýþma alanlarý daðýnýktýr, onlarý toparlayacak birine ihtiyaç duyarlar.",
+					"Eðlenceli ve hareketlidirler, mutluluk ve enerji yayarlar, dikkatsizdirler, hazýr cevaptýrlar, ikna edicidirler, sorunlara ilginç çözümler bulurlar, meraklýdýrlar."],
+		"Blue":	  [ "Mükemmelliyetçidirler. Duruþlarý, kýyafetleri ve her þeyleriyle çok düzenlidirler. Her þeyleri uyum içinde görünür.",
+					"Kurallara çok baðlýdýrlar. Çalýþma ortamlarý tam anlamýyla mükemmel ve profesyoneldir.",
+					"Her þeyleri planlý ve programlýdýr. Hassas insanlardýr.",
+					"Ayrýntýlar konusunda titiz davranýrlar. Çoðu zaman karar vermede büyük sýkýntýlar yaþarlar.",
+					"Genelde yalnýzlýktan hoþlanýrlar. Konuþtuklarýnda ses tonlarý alçaktýr. Konuþma hýzlarý düþüktür.",
+					"Duygularýný açýkça ortaya koymazlar, mantýk aðýrlýklýdýrlar.",
+					"Heyecanlarý ve duygularý ölçülüdür.",
+					"Bir olumsuzluk esnasýnda sakin ve akýlcý olabilirler.",
+					"Kuralcý olduklarýndan kolay kolay deðiþmek istemezler.",
+					"Daima tedbirlidirler.",
+					"Olaylarýn olumsuz yönlerini görüp kaygýlanýrlar. Detaycýdýrlar. Meraklýdýrlar. Araþtýrmacýdýrlar. Riskleri önceden görürler.",
+					"Ciddi ve aðýr baþlýdýrlar.",
+					"Standartlarý yüksektir.",
+					"Yeteneklidirler."],
+		"Red":	  [ "Güçlü kararlý tiplerdir.",
+					"Az laf, çok iþ derler. Sonuç odaklýdýrlar.",
+					"Herkesin onlar gibi düþünüp hareket etmesini isterler.",
+					"Gereksiz konuþmalardan ve iþlerden hoþlanmazlar.",
+					"Hep yapacak iþleri ve alýnmýþ kararlarý vardýr.",
+					"Önemli olan onlara göre iþin özünü anlamak ve sonucu elde etmektir. Bu yüzden kararlarýný uygularken gözleri baþka bir þey görmez.",
+					"Yüksek; ancak gerçekçi hedefler belirlemekten ve bunlarý gerçekleþtirmeye çalýþmaktan büyük zevk alýrlar. Son derece baðýmsýz insanlardýr.",
+					"Zaman yönetimi konusunda üstün bir becerileri vardýr.",
+					"Konuþmasý hýzlý ve tempoludur. Çalýþma ortamlarý, ne çok daðýnýk ne de çok düzenlidir.",
+					"Hep dik durmaya çalýþýrlar, kimseden yardým istemeyi sevmezler.",
+					"Kendilerini daima haklý görme eðilimleri vardýr.",
+					"Eleþtiriden pek hoþlanmazlar. Kararlý ve iþ bitiricidirler.",
+					"Ani kararlarýyla insanlarý þaþýrtabilirler.",
+					"Ýþlerine aþýrý odaklanýrlar; fakat sonuçlar konusunda yeterli deðerlendirmeyi yapamayabilirler.",
+					"Lider özelliklidirler. Özgüvenleri yüksektir."],
+		"Green":  [ "Orta yollu tiplerdir.",
+					"Dikkat çekici hatalarda bulunmazlar.",
+					"En belirgin yönleri her yerde mutlu olabilmeleri ve hallerinden memnuniyet duymalarýdýr.",
+					"Sabýrlýdýrlar.",
+					"Ayýrt edilmesi en güç olan ve zor anlaþýlan kiþilerdir.",
+					"Ýçten içe çok inatçýdýrlar. Projeleri yarým býrakabilirler.",
+					"Pek fazla kimseye hayýr diyemezler. Barýþçýl ve fedakardýrlar.",
+					"En çok önemsedikleri þey çevreden saygý görmektir.",
+					"Daha duygulu ve heyecanlýdýrlar.",
+					"Gruplarla uyumludurlar.",
+					"Kendilerini ön plana çýkarmaya çalýþmazlar. Baþka insanlarýn katkýlarýndaki deðeri görme konusunda oldukça yeteneklidirler.",
+					"Uyumlu iliþkilere çok deðer verirler.",
+					"Baþka insanlarýn hislerine karþý duyarlýdýrlar.",
+					"Çok hareketli ortamlarý sevmezler. Ýnce ve düþündürücü espri anlayýþýna sahiptirler. Kendileriyle barýþýktýrlar.",
+					"Çok rahattýrlar. Çatýþmadan çok çekinirler.",
+					"Doðal arabulucudurlar.",
+					"Çok sabýrlýdýrlar. Ýçlerinde fýrtýnalar koparken dýþarýdan sakin görünebilirler. Kimseyi kýrmak istemezler."]
+	},
+	"Advices" : {
+		"Yellow": [ "Aldýðýnýz emanetlere dikkat edin. Aldýðýnýz emaneti zamanýnda ve zarar vermeden geri verin.",
+					"Az konuþup çok dinleyin.",
+					"Asla ertelemeyin. Üþenmeyin ve vazgeçmeyin.",
+					"Karþýnýzdaki kiþinin beden diline dikkat edin.",
+					"Çocukluktan ve saflýktan kurtulun. Ýçinizdeki çocuðu canlý tutun; ama yer yerde ortaya çýkarmayýn.",
+					"Daha düzenli olun.",
+					"Ýnsanlarýn sözlerini kesmeyin.",
+					"Olaylarý fazla büyütmeyin.",
+					"Konuþmalarýnýzda daha net ve açýklayýcý olmaya özen gösterin."],
+		"Blue":	  [ "Ýyi bir þey yaptýklarýnda insanlarý takdir edin.",
+					"Ýnsanlar bir þeyi sizin kadar mükemmel yapmasalar da beðninizi gösterin.",
+					"Ayrýntýlarý hesaplarken bütünü kaçýrmayýn.",
+					"Yaptýðýnýz iþi nasýl yapacaðýnýzý düþünürken niçin yaptýðýnýzý da unutmayýn.",
+					"Her zaman ve en iyi olmaya çalýþmayýn. Ýyi olmanýz zaten yeterlidir.",
+					"Kendinize güvenin ve potansiyelinizin farkýnda olun.",
+					"Kendinizi fazla eleþtirmeyin.",
+					"Hayatýn olumlu yönlerini görmeye çalýþýn. Küçük þeyleri dert etmeyin."],
+		"Red":	  [ "Hatasýz kul olmayacaðýný kabul edin ve esnek olun.",
+					"Herkesin zayýf bir yönü olduðunu kabul edin.",
+					"Baþkalarýnýn da haklý olabileceðini kabul edin.",
+					"Konuþurken emir kipi kullanmayýn.",
+					"Her þeyi karýþmaktan uzak durun.",
+					"Sabýrlý olmayý öðrenin.",
+					"Ýnsanlarý küçümsemeyin.",
+					"Her zaman lider olamayacaðýnýzý kabul edin."],
+		"Green":  [ "Baþkalarýnýn sessizliðinden istifade etmelerine müsaade etmeyin.",
+					"Her þeye evet derseniz 'evet'in bir kýymeti kalmaz. Hayýr demeyi de öðrenin.",
+					"En kötü kararýn kararsýzlýk olduðunu bilin.",
+					"Duygularýnýzý açmayý öðrenin.",
+					"Kendi kendinizi motive etmeyi öðrenin. Motivasyonunuz için baþkalarýnýn görüþlerini beklemeyin.",
+					"Tembelliði býrakýn ve iþlerinizi ertelemeyin.",
+					"Sorumluluk almaya gayret gösterin.",
+					"Yeni þeyler denemeye çalýþýn.",
+					"Daha enerjik olmaya çalýþýn."]
+	}
+}
