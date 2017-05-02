@@ -1,6 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Questions : MonoBehaviour {
 
@@ -11,6 +14,6 @@ public class Questions : MonoBehaviour {
         string dataPath = (Resources.Load<TextAsset>("Data") as TextAsset).text;
 
         data = new JSONObject(dataPath);
-        Debug.Log(data);
+        Debug.Log(data.GetField("Questions")[0].GetField("Question"));
     }
 }
