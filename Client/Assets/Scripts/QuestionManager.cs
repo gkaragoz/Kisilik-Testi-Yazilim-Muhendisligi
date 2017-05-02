@@ -1,58 +1,32 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 public class QuestionManager : MonoBehaviour {
 
     private JSONObject data;
 
-    public List<Question> Questions = new List<Question>();
+    public List<Questions> Questions = new List<Questions>();
     public Informations Info = new Informations();
-
-    [System.Serializable]
-    public class Question
-    {
-        public string value;
-        public string[] answers = new string[4];
-
-        public Question(string value, string [] answers)
-        {
-            this.value = value; //This is question.
-            for (int ii = 0; ii < answers.Length; ii++)
-                this.answers[ii] = answers[ii];
-        }
-    }
-
-    [System.Serializable]
-    public class Informations
-    {
-        public List<string> Yellow = new List<string>();
-        public List<string> Blue = new List<string>();
-        public List<string> Red = new List<string>();
-        public List<string> Green = new List<string>();
-    }
-
+    public Advices Advice = new Advices();
+    
     void Start()
     {
         string dataPath = (Resources.Load<TextAsset>("Data") as TextAsset).text;
-
         data = new JSONObject(dataPath);
 
         FillQuestionsList(data);
         FillInformations(data);
-
-        //Debug.Log(data.GetField("Questions")[0].GetField("Answers")[0].ToString());
-
-        //Debug.Log(data.GetField("Questions")[0].GetField("Question"));
+        FillAdvices(data);
     }
 
+    #region FillStuff
     public void FillQuestionsList(JSONObject data)
     {
         int answerCount = 4;
 
         string [] answers = new string[answerCount];
-        for (int ii = 0; ii < data.GetField("Questions").list.Count; ii++)
+        for (int ii = 0; ii < data.GetField("Questions").Count; ii++)
         {
             for (int jj = 0; jj < answerCount + 1; jj++) //Answers keys.
             {
@@ -61,7 +35,7 @@ public class QuestionManager : MonoBehaviour {
                     answers[jj] = data.GetField("Questions")[ii].GetField("Answers")[jj].ToString();
                     continue;
                 }
-                Question q = new Question(data.GetField("Questions")[ii].GetField("Question").ToString(), answers);
+                Questions q = new Questions(data.GetField("Questions")[ii].GetField("Question").ToString(), answers);
                 Questions.Add(q);
             }
         }
@@ -69,6 +43,32 @@ public class QuestionManager : MonoBehaviour {
 
     public void FillInformations(JSONObject data)
     {
-        Debug.Log(data.GetField("Informations").ToString());
+        for (int ii = 0; ii < data.GetField("Informations").GetField("Yellow").Count; ii++)
+            Info.Yellow.Add(data.GetField("Informations").GetField("Yellow")[ii].ToString());
+
+        for (int ii = 0; ii < data.GetField("Informations").GetField("Blue").Count; ii++)
+            Info.Blue.Add(data.GetField("Informations").GetField("Blue")[ii].ToString());
+
+        for (int ii = 0; ii < data.GetField("Informations").GetField("Red").Count; ii++)
+            Info.Red.Add(data.GetField("Informations").GetField("Red")[ii].ToString());
+
+        for (int ii = 0; ii < data.GetField("Informations").GetField("Green").Count; ii++)
+            Info.Green.Add(data.GetField("Informations").GetField("Green")[ii].ToString());
     }
+
+    public void FillAdvices(JSONObject data)
+    {
+        for (int ii = 0; ii < data.GetField("Advices").GetField("Yellow").Count; ii++)
+            Advice.Yellow.Add(data.GetField("Advices").GetField("Yellow")[ii].ToString());
+
+        for (int ii = 0; ii < data.GetField("Advices").GetField("Blue").Count; ii++)
+            Advice.Blue.Add(data.GetField("Advices").GetField("Blue")[ii].ToString());
+
+        for (int ii = 0; ii < data.GetField("Advices").GetField("Red").Count; ii++)
+            Advice.Red.Add(data.GetField("Advices").GetField("Red")[ii].ToString());
+
+        for (int ii = 0; ii < data.GetField("Advices").GetField("Green").Count; ii++)
+            Advice.Green.Add(data.GetField("Advices").GetField("Green")[ii].ToString());
+    }
+    #endregion
 }
